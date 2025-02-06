@@ -1,4 +1,4 @@
-# Object Oriented Programming Lab
+# Object Oriented Programming Lab [B.Tech IT Batch-2024-2028, MITS, DU]
 
 1. [Write a program that uses a class where the member functions are defined inside a class.](Student.cpp)
 2. [Write a program that uses a class where the member functions are defined outside a class.](Student_outside.cpp)
