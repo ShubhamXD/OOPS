@@ -1,32 +1,36 @@
-#include <iostream>
-using namespace std;
+#include <iostream> // Include the iostream library for input and output
+using namespace std; // Use the standard namespace
 
+// Define the Student class
 class Student {
 private:
-    string name;
-    string rollno;
-    int age;
+    string name; // Private member variable to store the student's name
+    string rollno; // Private member variable to store the student's roll number
+    int age; // Private member variable to store the student's age
 
 public:
+    // Public member function to set the student's details
     void set() {
-        cout << "Enter name: ";
-        cin >> name;
-        cout << "Enter roll no: ";
-        cin >> rollno;
-        cout << "Enter age: ";
-        cin >> age;
+        cout << "Enter name: "; // Prompt the user to enter the name
+        cin >> name; // Read the name from the user
+        cout << "Enter roll no: "; // Prompt the user to enter the roll number
+        cin >> rollno; // Read the roll number from the user
+        cout << "Enter age: "; // Prompt the user to enter the age
+        cin >> age; // Read the age from the user
     }
 
+    // Public member function to get the student's details
     void get() {
-        cout << "Name: " << name << endl;
-        cout << "Roll No: " << rollno << endl;
-        cout << "Age: " << age << endl;
+        cout << "Name: " << name << endl; // Print the student's name
+        cout << "Roll No: " << rollno << endl; // Print the student's roll number
+        cout << "Age: " << age << endl; // Print the student's age
     }
 };
 
+// Main function
 int main() {
-    Student student;
-    student.set();
-    student.get();
-    return 0;
+    Student student; // Create an instance of the Student class
+    student.set(); // Call the set function to input the student's details
+    student.get(); // Call the get function to output the student's details
+    return 0; // Return 0 to indicate successful execution
 }
