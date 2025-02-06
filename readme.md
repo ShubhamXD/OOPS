@@ -1,7 +1,7 @@
 # Object Oriented Programming Lab
 
 1. [Write a program that uses a class where the member functions are defined inside a class.](Student.cpp)
-2. Write a program that uses a class where the member functions are defined outside a class.
+2. [Write a program that uses a class where the member functions are defined outside a class.](Student_outside.cpp)
 3. Write a program to demonstrate the use of static data members.
 4. Write a program to demonstrate the use of const data members.
 5. Write a program to demonstrate the use of zero argument and parameterized constructors.
