@@ -33,3 +33,17 @@ int main() {
 
     return 0; // Return 0 to indicate successful execution
 }
+
+
+
+
+
+
+
+/*
+- The `Student` class has an explicit parameterized constructor that initializes member variables with given values.
+- The `explicit` keyword prevents implicit conversions and copy-initialization.
+- The `get` member function outputs the student's details.
+- Attempting to create a `Student` object using copy-initialization (commented out in `main`) would result in a compilation error, enforcing the use of direct initialization.
+
+*/
