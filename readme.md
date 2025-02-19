@@ -2,7 +2,7 @@
 
 1. [Write a program that uses a class where the member functions are defined inside a class.](Student.cpp)
 2. [Write a program that uses a class where the member functions are defined outside a class.](Student_outside.cpp)
-3. Write a program to demonstrate the use of static data members.
+3. [Write a program to demonstrate the use of static data members.](student_static_member.cpp)
 4. Write a program to demonstrate the use of const data members.
 5. Write a program to demonstrate the use of zero argument and parameterized constructors.
 6. Write a program to demonstrate the use of dynamic constructor.
