@@ -9,7 +9,7 @@ int main() {
     std::cout << "Enter second number: ";
     std::cin >> num2;
 
-    sum = num1 + num2;
+    sum = num1 + num2+num1;
 
     std::cout << "The sum is: " << sum << std::endl;
 
