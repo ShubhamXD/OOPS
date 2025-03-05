@@ -7,6 +7,6 @@
 5. [Write a program to demonstrate the use of zero argument and parameterized constructors.](student_constructor.cpp)
 6. [Write a program to demonstrate the use of dynamic constructor.](student_dynamic_constructor.cpp)
 7. [Write a program to demonstrate the use of explicit constructor.](student_explicit_constructor.cpp)
-8. Write a program to demonstrate the use of initializer list.
+8. [Write a program to demonstrate the use of initializer list.](student_initializer_list.cpp)
 9. Write a program to demonstrate the overloading of increment and decrement operators.
 10. Write a program to demonstrate the multilevel inheritance.
